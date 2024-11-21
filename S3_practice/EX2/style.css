@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(190, 194, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0, 0, 5);
+    padding: 16px;
+}
+.top{
+    /* margin-top: 5px; */
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.dot{
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profile img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main{
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+}
+.main img{
+    width: 100%;
+}
+.play-icon{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: gray;
+
+}
+.play-icon:hover{
+    color: white;
+}
+.overlay-text{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.comment img{
+    width: 30px;
+    border-radius: 50%;
+    padding: 4px;
+
+}
+.comment p{
+    color: gray;
+}
+.emoji{
+    margin-left: 160px;
+    color: gray;
+}
